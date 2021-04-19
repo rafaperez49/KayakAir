@@ -16,7 +16,6 @@ Selenium WebDriver using Page object model. (This is only one way to implement P
 - Hamcrest 
 - Junit
 - Selenium
-- Log4j
 
 ## Steps to make this project works
 
