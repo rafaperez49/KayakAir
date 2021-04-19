@@ -1,7 +1,7 @@
 package kayakair.assertions;
-import static org.hamcrest.MatcherAssert.assertThat;
-import static kayakair.utils.TestConstantStrings.THE_DATE_DOES_NOT_CHANGE;
 import static kayakair.utils.TestConstantStrings.NOT_EXIST_NEW_WINDOW;
+import static kayakair.utils.TestConstantStrings.THE_DATE_DOES_NOT_CHANGE;
+import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.containsString;
 
 import org.hamcrest.Matchers;

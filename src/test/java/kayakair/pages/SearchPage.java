@@ -111,12 +111,16 @@ public class SearchPage extends BasePage{
 		driver.findElement(By.xpath(CLOSE_BUTTON)).click();		
 	}
 	
-	public void selectTheLowestCost(){
-		
+	public void lookForMoreResults() {
 		for (int i = 0; i < TIMES_TO_SEARCH.getNumber(); i++){
 			wait.until(ExpectedConditions.elementToBeClickable(By.xpath(LOAD_MORE_BUTTON)));
 			interaction.executeScript(CLICK_ELEMENT.getText(),driver.findElement(By.xpath(LOAD_MORE_BUTTON)));
 		}		
+	}
+	
+	
+	public void selectTheLowestCost(){		
+			
 		thePrices = driver.findElements(By.xpath(LOWER_PRICE)).stream()
 						.sorted(Comparator.comparing(WebElement::getText))
 						.filter(voidResults -> !voidResults.getText().equals(VOID_STRING.getText()))
