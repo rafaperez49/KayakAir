@@ -83,6 +83,7 @@ public class KayakStepDefinitions{
 	  searchPageAssertion.validateTheDate(newReturnDate, searchPage.getRetunDate());
 	  
 	  /*Then the user should see all the prices to select the lowest one*/
+	  searchPage.lookForMoreResults();
 	  searchPage.selectTheLowestCost();
 	  searchPageAssertion.validateNewWindow(homePage, searchPage);
 	  
