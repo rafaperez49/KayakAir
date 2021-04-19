@@ -1,4 +1,4 @@
-### -------KAYAK AIR WEB PAGE AUTOMATION------------------
+### -------KAYAK AIR WEB PAGE AUTOMATION---------
 
 ## INTRODUCTION
 
@@ -19,7 +19,8 @@ Selenium WebDriver using Page object model. (This is only one way to implement P
 
 ## Steps to make this project works
 
-- Download the repo from ---
+- Download the repo from https://github.com/rafaperez49/KayakAir.git
+- Open git bash and enter the following command ---> git clone "https://github.com/rafaperez49/KayakAir.git"
 - Open a cmd in the root project and enter 'mvn clean test'.
 
 ## To run the test
